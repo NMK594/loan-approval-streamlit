@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the model pipeline
-with open(r"C:\Users\Admin\Downloads\TTNT\xgboost_pipeline.pkl", 'rb') as file:
+with open("xgboost_pipeline.pkl", 'rb') as file:
     loaded_pipeline = pickle.load(file)
 
 st.title("Loan Approval Prediction")
